@@ -7,5 +7,7 @@ class TestApp(unittest.TestCase):
         self.assertEqual(add(-1, 1), 0)
         self.assertEqual(add(-1, -1), -2)
 
+print("Hello world")
+
 if __name__ == "__main__":
     unittest.main()
